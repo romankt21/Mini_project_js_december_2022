@@ -3,8 +3,7 @@ let userDetails = document.getElementsByClassName('userDetails')[0];
 let url = new URL(location.href);
 let jsonUser = url.searchParams.get('data');
 let user = JSON.parse(jsonUser);
-console.log(jsonUser);
-console.log(user);
+
 
 function userDetailsFoo (user) {
  for (const userDet in user) {
@@ -31,28 +30,47 @@ function userDetailsFoo (user) {
 
 userDetailsFoo(user)
 
-
 let buttonPosts = document.createElement('button');
-buttonPosts.innerText = 'post-details';
+buttonPosts.innerText = 'posts';
 buttonPosts.classList.add('buttonPosts');
 userDetails.appendChild(buttonPosts);
+
+
+let postContain = document.createElement('div')
+postContain.classList.add('postContain');
+document.body.appendChild(postContain);
+
 
 buttonPosts.onclick = (e) => {
  e.preventDefault()
 
+ fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
+     .then((response) => response.json())
+     .then(posts => {
+      for (let post of posts) {
+       let postDiv = document.createElement('div');
+       postDiv.classList.add('postDiv');
+       postDiv.innerText = `${post.id} -- ${post.title}`
+       postContain.appendChild(postDiv);
+
+       let buttonPost = document.createElement('button');
+       buttonPost.innerText = 'post-details';
+       buttonPost.classList.add('buttonPost');
+       postDiv.appendChild(buttonPost);
+
+       buttonPost.onclick = function () {
+        location.href = `../post-details/post-details.html?data=${JSON.stringify(post)}`;
+       }
+
+      }
+
+     });
+
+
 }
- 
 
 
 
 
 
 
-
-let p = document.createElement('div')
-document.body.appendChild(p);
-p.innerText = '----------'
-
-let div = document.createElement('div');
-document.body.appendChild(div);
-div.innerText =`${jsonUser}`

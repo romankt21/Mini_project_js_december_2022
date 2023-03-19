@@ -6,7 +6,7 @@ body {
 
 .userDetails {
     width: 100%;
-    background: #dad720;
+    background: silver;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,4 +20,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.buttonPosts {
+    width: 90%;
+    height: 40px;
+    background: yellow;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.postContain {
+    width: 100%;
+    background: lightsteelblue;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.postDiv {
+    background: aqua;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: calc(9% - 50px);
+    margin-right: calc(9% - 50px);
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
