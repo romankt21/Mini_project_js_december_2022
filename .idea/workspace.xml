@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bba11d0a-e800-474f-82d2-c4a303050a06" name="Changes" comment="ch">
+      <change afterPath="$PROJECT_DIR$/user-details/user-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-details/user-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/users/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/users/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-details/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-details/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-details/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/users/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Roman/Programuv/okten_sckool/E_IdeaProjects/Mini_project_js_december_2022",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Roman/Programuv/okten_sckool/E_IdeaProjects/Mini_project_js_december_2022&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Roman\Programuv\okten_sckool\E_IdeaProjects\Mini_project_js_december_2022\user-details" />
@@ -73,6 +74,8 @@
       <workItem from="1679164884212" duration="1210000" />
       <workItem from="1679166171685" duration="9000" />
       <workItem from="1679166290219" duration="991000" />
+      <workItem from="1679167380921" duration="3866000" />
+      <workItem from="1679216453740" duration="8712000" />
     </task>
     <task id="LOCAL-00001" summary="ch">
       <created>1679165930918</created>
@@ -81,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679165930918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ch">
+      <created>1679167443143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679167443143</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -8,7 +8,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
         userDiv.classList.add('user');
         let a = document.createElement('a');
         a.innerText = `${user.id} ${user.name}`;
-        a.href = `./user-details/user-details.html?data=${JSON.stringify(user)}`;
+        a.href = `../user-details/user-details.html?data=${JSON.stringify(user)}`;
 
 
         usersArr.appendChild(userDiv)
