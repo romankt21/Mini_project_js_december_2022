@@ -3,7 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-.users {
+
+.usersArr {
     background: lightpink;
     display: flex;
     flex-wrap: wrap;

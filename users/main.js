@@ -1,6 +1,8 @@
-let usersArr = document.createElement('div');
-usersArr.classList.add('users');
-document.body.appendChild(usersArr);
+let usersArr = document.getElementsByClassName('usersArr') [0];
+
+// let usersArr = document.createElement('div');
+// usersArr.classList.add('users');
+// userContain.appendChild(usersArr);
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(value => value.json())
     .then(users => users.forEach(user => {

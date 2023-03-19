@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.userDetails {
+    width: 100%;
+    background: #dad720;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divUserDetails {
+    width: 95%;
+    background: lightgreen;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
